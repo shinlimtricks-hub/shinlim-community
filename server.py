@@ -41,8 +41,6 @@ import tempfile
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Optional, Annotated
-
-import torch
 import torchaudio
 import uvicorn
 from fastapi import FastAPI, HTTPException, UploadFile, File, Form, Depends, Request
