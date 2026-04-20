@@ -4,5 +4,9 @@ torch
 torchaudio
 typing_extensions
 pydantic
-git+https://github.com/myshell-ai/MeloTTS.git
+numpy
+scipy
+soundfile
 git+https://github.com/myshell-ai/OpenVoice.git
+git+https://github.com/myshell-ai/MeloTTS.git#egg=MeloTTS&subdirectory=.
+fugashi==1.2.1 ; platform_system!="Linux"
