@@ -1,2 +1,8 @@
-flask
-flask-cors
+fastapi
+uvicorn
+torch
+torchaudio
+typing_extensions
+pydantic
+git+https://github.com/myshell-ai/MeloTTS.git
+git+https://github.com/myshell-ai/OpenVoice.git
